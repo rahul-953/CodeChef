@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="APRIL15"/>
+	<classpathentry kind="src" path="APRIL16"/>
+	<classpathentry kind="src" path="AUG15"/>
+	<classpathentry kind="src" path="CDBR2015"/>
+	<classpathentry kind="src" path="CDVA2015"/>
+	<classpathentry kind="src" path="DEC15"/>
+	<classpathentry kind="src" path="FEB15"/>
+	<classpathentry kind="src" path="IGCD2015"/>
+	<classpathentry kind="src" path="JAN15"/>
+	<classpathentry kind="src" path="JAN17"/>
+	<classpathentry kind="src" path="JULY15"/>
+	<classpathentry kind="src" path="JULY16"/>
+	<classpathentry kind="src" path="JUNE15"/>
+	<classpathentry kind="src" path="JUNE17"/>
+	<classpathentry kind="src" path="KRKS2015"/>
+	<classpathentry kind="src" path="LTIME23"/>
+	<classpathentry kind="src" path="LTIME28"/>
+	<classpathentry kind="src" path="MARCH15"/>
+	<classpathentry kind="src" path="MARCH16"/>
+	<classpathentry kind="src" path="MARCH17"/>
+	<classpathentry kind="src" path="MAY15"/>
+	<classpathentry kind="src" path="MAY17"/>
+	<classpathentry kind="src" path="NEPR2015"/>
+	<classpathentry kind="src" path="OCT14"/>
+	<classpathentry kind="src" path="OCT15"/>
+	<classpathentry kind="src" path="OCT16"/>
+	<classpathentry kind="src" path="PRACTICE"/>
+	<classpathentry kind="src" path="SEPT15"/>
+	<classpathentry kind="src" path="SEPT16"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
