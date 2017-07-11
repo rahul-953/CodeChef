@@ -2,10 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-/*
- *  5>4>3>2>1<2<3<4<5
- */
-
 class CHEFSIGN {
 
 	public static void main(String[] args) throws IOException {
