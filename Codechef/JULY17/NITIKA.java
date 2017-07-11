@@ -3,13 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class NITIKA {
-
 	public static void main(String[] args) throws IOException {
-
-		
-		
-		
-		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int testCases = Integer.parseInt(br.readLine());
 		String input[];
@@ -40,7 +34,6 @@ public class NITIKA {
 				break;
 			}
 		}
-
 		br.close();
 	}
 }
