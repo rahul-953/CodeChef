@@ -10,6 +10,10 @@ class CHEFSIGN {
 
 	public static void main(String[] args) throws IOException {
 
+		
+		
+		
+		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int testCases = Integer.parseInt(br.readLine());
 
