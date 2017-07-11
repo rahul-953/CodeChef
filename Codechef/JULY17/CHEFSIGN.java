@@ -2,6 +2,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/*
+ *  1<2 <3 <5 > 4>3>2>1 
+ */
 class CHEFSIGN {
 
 	public static void main(String[] args) throws IOException {
@@ -28,7 +31,7 @@ class CHEFSIGN {
 
 				} else {
 					global_max = (int) Math.max(max, global_max);
-					max = 0;
+					max = 01;
 				}
 
 				// System.out.println("Max = " + max + " global_max = " + global_max);
