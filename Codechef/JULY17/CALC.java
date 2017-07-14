@@ -1,36 +1,40 @@
-import java.io.BufferedReader;
+import java.io.*;
 import java.io.PrintWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.*;
 
 class CALC {
 
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		//BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		PrintWriter pw = new PrintWriter(System.out);
-
-		int testCases = Integer.parseInt(br.readLine());
+		Scanner sc = new Scanner(System.in);
+		int testCases = sc.nextInt();
 
 		long N, B;
 		String input[];
 
 		while (testCases-- > 0) {
-			input = br.readLine().split(" ");
-			N = Long.parseLong(input[0]);
-			B = L   ong.parseLong(input[1]);
-			long num = N * N;
-			long den = 4L * B;
-			long ans = num / den;
-
-			if (N >= 2 && N >= 2 * B) {
-				pw.println(ans);
-			} else {
-				pw.println("0");
-			}
-
+			//input = br.readLine().split(" ");
+			//N = Long.parseLong(input[0]);
+			//B = Long.parseLong(input[1]);
+			N = sc.nextLong();
+			B = sc.nextLong();
+			long Ynum2 = 0L, Ynum1 = 0L;
+			long xclicks,yclicks;
+			
+			long num1 = (N/B)/2;
+			long num2 = num1+1;
+			
+			Ynum1 = (N - num1*B)*num1;
+			Ynum2 = (N - num2*B)*num2;
+			long Ynum = (long)Math.max(Ynum1,Ynum2);
+			
+			pw.println(Ynum);
 		}
 
 		pw.close();
-		br.close();
+		sc.close();
 	}
 }
