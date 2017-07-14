@@ -17,7 +17,7 @@ class CALC {
 		while (testCases-- > 0) {
 			input = br.readLine().split(" ");
 			N = Long.parseLong(input[0]);
-			B = Long.parseLong(input[1]);
+			B = L   ong.parseLong(input[1]);
 			long num = N * N;
 			long den = 4L * B;
 			long ans = num / den;
