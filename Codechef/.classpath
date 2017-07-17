@@ -29,6 +29,7 @@
 	<classpathentry kind="src" path="PRACTICE"/>
 	<classpathentry kind="src" path="SEPT15"/>
 	<classpathentry kind="src" path="SEPT16"/>
+	<classpathentry kind="src" path="JULY17"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

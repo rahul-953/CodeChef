@@ -1,8 +1,6 @@
-import java.io.*;
-import java.io.PrintWriter;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.*;
+import java.io.PrintWriter;
+import java.util.Scanner;
 
 class CALC {
 
@@ -13,16 +11,11 @@ class CALC {
 		int testCases = sc.nextInt();
 
 		long N, B;
-		String input[];
 
 		while (testCases-- > 0) {
-			// input = br.readLine().split(" ");
-			// N = Long.parseLong(input[0]);
-			// B = Long.parseLong(input[1]);
 			N = sc.nextLong();
 			B = sc.nextLong();
 			long Ynum2 = 0L, Ynum1 = 0L;
-			long xclicks, yclicks;
 
 			long num1 = (N / B) / 2;
 			long num2 = num1 + 1;

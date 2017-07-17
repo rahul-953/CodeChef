@@ -5,6 +5,7 @@ import java.io.InputStreamReader;
 /*
  *  1<2 <3 <5 > 4>3>2>1 
  */
+
 class CHEFSIGN {
 
 	public static void main(String[] args) throws IOException {
@@ -34,12 +35,10 @@ class CHEFSIGN {
 					max = 01;
 				}
 
-				// System.out.println("Max = " + max + " global_max = " + global_max);
 			}
 
 			System.out.println(global_max + 1);
 		}
 		br.close();
 	}
-
 }
